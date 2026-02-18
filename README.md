@@ -1,12 +1,12 @@
 # 📱 My Portfolio
 
-Check out the deployed website [HERE](https://my-portfolio-sage-zeta-21.vercel.app/)
+Check out the deployed website [HERE](https://katie-chickering-portfolio.vercel.app/)
 
 
 ## 🛠️ Technologies Used
 
-- **Core Stack:** Vite, React
-- **Languages:** Javascript, JSX
+- **Core Stack:** React, Next.js
+- **Languages:** TypeScript, TSX
 - **TailWindCSS:** Front-end styling
 - **Vercel:** Front-end website deployment
 - **Figma:** Design collaboration with UI/UX designer
@@ -25,7 +25,7 @@ Check out the deployed website [HERE](https://my-portfolio-sage-zeta-21.vercel.a
 
 ## ℹ️ Overview
 
-This portfolio website showcases my work as a front-end developer through a clean, modern interface built with React and Vite. The site was designed in Figma in collaboration with a UI/UX designer and built with TailwindCSS for consistent, professional styling. The project demonstrates proficiency in modern React patterns, component composition, and creating polished user experiences.
+This portfolio website showcases my work as a front-end developer through a clean, modern interface built with Typescript, React, and Next.js. The site was designed in Figma in collaboration with a UI/UX designer and built with TailwindCSS for consistent, professional styling. The project demonstrates proficiency in modern React patterns, component composition, and creating polished user experiences.
 
 
 ## 🚀 Deployment
@@ -42,4 +42,4 @@ UI / UX Designer - Helena Contreras - https://www.linkedin.com/in/helena-g-4b5aa
 
 ## 💭 Feedback and Contributing
 
-If you found this insightful or if you have suggestions, please start a [discussion](https://github.com/katiechickering/my-portfolio/discussions/1)!
+If you found this insightful or if you have suggestions, please start a [discussion](https://github.com/katiechickering/katie-chickering-portfolio/discussions/1)!

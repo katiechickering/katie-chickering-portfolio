@@ -10,15 +10,16 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    url: 'katie-chickering-portfolio.vercel.app/',
+    url: 'katie-chickering-portfolio.vercel.app',
     title: 'Katie Chickering | Software Engineer',
     description: 'I build thoughtful digital experiences that help people succeed.',
     siteName: 'Katie Chickering',
     images: [
       {
-        url: 'katie-chickering-portfolio.vercel.app/TrackMyChores3Phones.png',
+        url: '/TrackMyChores3Phones.png',
         width: 1144,
         height: 672,
+        alt: 'Track My Chores App Preview',
       }
     ],
   },

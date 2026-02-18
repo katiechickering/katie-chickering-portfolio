@@ -20,11 +20,7 @@ export const Certifications = () => {
             >
                 {/* Logo */}
                 <div className="w-full md:w-28 flex items-center md:items-start justify-center md:justify-start shrink-0">
-                    <Image
-                        src={HarvardOnline}
-                        alt="Harvard Online Logo"
-                        className="w-20 md:w-full h-auto"
-                    />
+                    <HarvardOnline className="w-20 md:w-full h-auto" />
                 </div>
 
                 {/* Content */}

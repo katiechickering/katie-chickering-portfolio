@@ -32,7 +32,7 @@ export const Home = () => {
                 className="inline-flex items-center text-brand-blue gap-x-2 border-brand-blue
                 border rounded-full py-2 px-7 mt-5 md:mt-8 text-[13px] hover:bg-[#0C576D] w-fit"
             >
-                <EmailIcon />
+                <EmailIcon className="w-6 h-6 shrink-0"/>
                 Contact
             </a>
         </div>

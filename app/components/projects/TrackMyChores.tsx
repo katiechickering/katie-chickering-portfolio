@@ -64,7 +64,7 @@ export const TrackMyChores = () => {
             </div>
 
             <div className="flex gap-4 items-center mb-4 mt-8">
-                <BulletIcon />
+                <BulletIcon className="w-1.5 h-1.5 shrink-0"/>
                 <p className="text-brand-blue text-[14px]">Skills</p>
             </div>
 
@@ -94,7 +94,7 @@ export const TrackMyChores = () => {
                     <p className="text-[11px]">Scrum</p>
                 </div>
                 <div className="flex flex-col items-center gap-2">
-                    <div className="bg-[#0C576D] rounded-full p-2 size-9 flex justify-center items-center">
+                    <div className="bg-[#0C576D] rounded-full p-2.75 size-9 flex justify-center items-center">
                         <MobileIcon />
                     </div>
                     <p className="text-[11px] text-center">Mobile Application<br/>Development</p>
@@ -102,7 +102,7 @@ export const TrackMyChores = () => {
             </div>
 
             <div className="flex gap-4 items-center mt-8 mb-4">
-                <BulletIcon />
+                <BulletIcon className="w-1.5 h-1.5 shrink-0"/>
                 <p className="text-brand-blue text-[14px]">Technologies Used</p>
             </div>
 
@@ -119,7 +119,7 @@ export const TrackMyChores = () => {
             </ul>
 
             <div className="flex gap-4 items-center mt-8 mb-4">
-                <BulletIcon />
+                <BulletIcon className="w-1.5 h-1.5 shrink-0"/>
                 <p className="text-brand-blue text-[14px]">Highlights</p>
             </div>
 
@@ -140,7 +140,7 @@ export const TrackMyChores = () => {
             </div>
 
             <div className="flex gap-4 items-center mb-4">
-                <BulletIcon />
+                <BulletIcon className="w-1.5 h-1.5 shrink-0"/>
                 <p className="text-brand-blue text-[14px]">Overview</p>
             </div>
 
@@ -195,7 +195,7 @@ export const TrackMyChores = () => {
             )}
 
             <div className="flex gap-4 items-center mb-4 mt-8">
-                <BulletIcon />
+                <BulletIcon className="w-1.5 h-1.5 shrink-0"/>
                 <p className="text-brand-blue text-[14px]">Deployment</p>
             </div>
 
@@ -207,7 +207,7 @@ export const TrackMyChores = () => {
             </ul>
 
             <div className="flex gap-4 items-center mb-4 mt-8">
-                <BulletIcon />
+                <BulletIcon className="w-1.5 h-1.5 shrink-0"/>
                 <p className="text-brand-blue text-[14px]">Authors</p>
             </div>
 

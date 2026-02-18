@@ -33,7 +33,7 @@ export const BirdWatching = () => {
             </div>
 
             <div className="flex gap-4 items-center my-4">
-                <BulletIcon />
+                <BulletIcon className="w-1.5 h-1.5 shrink-0" />
                 <p className="text-brand-blue text-[14px]">Skills</p>
             </div>
 
@@ -46,14 +46,14 @@ export const BirdWatching = () => {
                 </div>
 
                 <div className="flex flex-col items-center gap-2">
-                    <div className="bg-[#0C576D] rounded-full p-2 size-9 flex justify-center items-center">
+                    <div className="bg-[#0C576D] rounded-full p-2.5 size-9 flex justify-center items-center">
                         <SQLIcon />
                     </div>
                     <p className="text-[11px] text-center">MySQL</p>
                 </div>
 
                 <div className="flex flex-col items-center gap-2">
-                    <div className="bg-[#0C576D] rounded-full p-2 size-9 flex justify-center items-center">
+                    <div className="bg-[#0C576D] rounded-full p-2.5 size-9 flex justify-center items-center">
                         <PythonIcon />
                     </div>
                     <p className="text-[11px] text-center">Python</p>
@@ -77,7 +77,7 @@ export const BirdWatching = () => {
             </div>
 
             <div className="flex gap-4 items-center mt-8 mb-4">
-                <BulletIcon />
+                <BulletIcon className="w-1.5 h-1.5 shrink-0" />
                 <p className="text-brand-blue text-[14px]">Technologies Used</p>
             </div>
 
@@ -103,7 +103,7 @@ export const BirdWatching = () => {
             </ul>
 
             <div className="flex gap-4 items-center mt-8 mb-4">
-                <BulletIcon />
+                <BulletIcon className="w-1.5 h-1.5 shrink-0" />
                 <p className="text-brand-blue text-[14px]">Highlights</p>
             </div>
 
@@ -123,7 +123,7 @@ export const BirdWatching = () => {
             </div>
 
             <div className="flex gap-4 items-center mb-4">
-                <BulletIcon />
+                <BulletIcon className="w-1.5 h-1.5 shrink-0" />
                 <p className="text-brand-blue text-[14px]">Overview</p>
             </div>
 
@@ -150,7 +150,7 @@ export const BirdWatching = () => {
             </div>
 
             <div className="flex gap-4 items-center mb-4">
-                <BulletIcon />
+                <BulletIcon className="w-1.5 h-1.5 shrink-0" />
                 <p className="text-brand-blue text-[14px]">Deployment</p>
             </div>
 

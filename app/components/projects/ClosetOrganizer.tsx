@@ -33,7 +33,7 @@ export const ClosetOrganizer = () => {
             </div>
 
             <div className="flex gap-4 items-center my-4">
-                <BulletIcon />
+                <BulletIcon className="w-1.5 h-1.5 shrink-0" />
                 <p className="text-brand-blue text-[14px]">Skills</p>
             </div>
 
@@ -71,7 +71,7 @@ export const ClosetOrganizer = () => {
             </div>
 
             <div className="flex gap-4 items-center mt-8 mb-4">
-                <BulletIcon />
+                <BulletIcon className="w-1.5 h-1.5 shrink-0" />
                 <p className="text-brand-blue text-[14px]">Technologies Used</p>
             </div>
 
@@ -85,7 +85,7 @@ export const ClosetOrganizer = () => {
             </ul>
 
             <div className="flex gap-4 items-center mt-8 mb-4">
-                <BulletIcon />
+                <BulletIcon className="w-1.5 h-1.5 shrink-0" />
                 <p className="text-brand-blue text-[14px]">Highlights</p>
             </div>
 
@@ -106,7 +106,7 @@ export const ClosetOrganizer = () => {
             </div>
 
             <div className="flex gap-4 items-center mb-4">
-                <BulletIcon />
+                <BulletIcon className="w-1.5 h-1.5 shrink-0" />
                 <p className="text-brand-blue text-[14px]">Overview</p>
             </div>
 
@@ -134,7 +134,7 @@ export const ClosetOrganizer = () => {
             </div>
 
             <div className="flex gap-4 items-center mb-4">
-                <BulletIcon />
+                <BulletIcon className="w-1.5 h-1.5 shrink-0" />
                 <p className="text-brand-blue text-[14px]">Deployment</p>
             </div>
 
@@ -153,7 +153,7 @@ export const ClosetOrganizer = () => {
             </ul>
 
             <div className="flex gap-4 items-center mt-8 mb-4">
-                <BulletIcon />
+                <BulletIcon className="w-1.5 h-1.5 shrink-0" />
                 <p className="text-brand-blue text-[14px]">Authors</p>
             </div>
 

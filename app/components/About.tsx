@@ -11,14 +11,11 @@ export const About = () => {
             <div className="flex flex-col md:flex-row gap-8 md:gap-10 mt-7 md:mt-18 items-start">
                 
                 {/* Desktop Image */}
-                <div className="hidden md:block md:w-56 lg:w-[366px]">
-                    <Image
-                        src={Headshot}
-                        alt="Katie Chickering"
-                        className="w-full h-auto"
-                        priority
-                    />
-                </div>
+                <Image
+                    src={Headshot}
+                    alt="Katie Chickering"
+                    className="hidden md:block md:w-56 lg:w-[366px] h-auto"
+                />
 
                 <div className="font-ntr text-[16px] md:text-[20px] text-brand-white-text leading-6 md:leading-7 flex flex-col gap-5">
                     <p>
@@ -51,13 +48,12 @@ export const About = () => {
                 </div>
 
                 {/* Mobile Image */}
-                <div className="md:hidden flex justify-center w-full">
-                    <Image
-                        src={Headshot}
-                        alt="Katie Chickering"
-                        className="w-[186px] h-auto"
-                    />
-                </div>
+                <Image
+                    src={Headshot}
+                    alt="Katie Chickering"
+                    className="md:hidden block mx-auto w-[186px] h-auto"
+                />
+
             </div>
         </div>
     );

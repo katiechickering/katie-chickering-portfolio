@@ -28,7 +28,7 @@ export const Contact = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <LinkedInIcon />
+                        <LinkedInIcon className="w-[33px] h-[33px] shrink-0"/>
                     </a>
 
                     <a
@@ -36,7 +36,7 @@ export const Contact = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <GitHubIcon />
+                        <GitHubIcon className="w-[34px] h-[34px] shrink-0"/>
                     </a>
 
                     <a
@@ -44,13 +44,13 @@ export const Contact = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <YouTubeIcon />
+                        <YouTubeIcon className="w-[36px] h-[27px] shrink-0"/>
                     </a>
 
                     <a
                         href="mailto:katiechickering@gmail.com?subject=Portfolio%20Inquiry"
                     >
-                        <WhiteEmailIcon />
+                        <WhiteEmailIcon className="w-[33px] h-[25px] shrink-0"/>
                     </a>
                 </div>
             </div>
@@ -62,7 +62,7 @@ export const Contact = () => {
                 className="inline-flex items-center text-brand-blue gap-x-2 border-brand-blue
                 border rounded-full py-2 px-7 mt-8 text-[13px] hover:bg-[#0C576D] w-fit"
             >
-                <ResumeIcon />
+                <ResumeIcon className="w-[18px] h-[21px] shrink-0"/>
                 View Resume
             </a>
         </div>

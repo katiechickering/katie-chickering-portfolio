@@ -10,13 +10,13 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    url: 'https://katiechickering.com/', // Update to your new domain
+    url: 'katie-chickering-portfolio.vercel.app/',
     title: 'Katie Chickering | Software Engineer',
     description: 'I build thoughtful digital experiences that help people succeed.',
     siteName: 'Katie Chickering',
     images: [
       {
-        url: 'https://katiechickering.com/TrackMyChores3Phones.png', // Update URL
+        url: 'katie-chickering-portfolio.vercel.app/TrackMyChores3Phones.png',
         width: 1144,
         height: 672,
       }

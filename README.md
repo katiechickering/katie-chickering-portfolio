@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📱 My Portfolio
 
-## Getting Started
+Check out the deployed website [HERE](https://my-portfolio-sage-zeta-21.vercel.app/)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Core Stack:** Vite, React
+- **Languages:** Javascript, JSX
+- **TailWindCSS:** Front-end styling
+- **Vercel:** Front-end website deployment
+- **Figma:** Design collaboration with UI/UX designer
+- **GitHub:** Version control
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌟 Highlights
 
-## Learn More
+- Navigate seamlessly across 7 portfolio sections with smooth scroll-to-section functionality
+- Browse through 5 projects with detailed technical breakdowns and live deployment links
+- Watch YouTube videos with direct routing to full content
+- View certifications instantly with modal-based image display
+- Access LinkedIn, GitHub, and professional profiles through integrated contact icons
+- Experience fully responsive design that adapts between desktop and mobile layouts
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ℹ️ Overview
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This portfolio website showcases my work as a front-end developer through a clean, modern interface built with React and Vite. The site was designed in Figma in collaboration with a UI/UX designer and built with TailwindCSS for consistent, professional styling. The project demonstrates proficiency in modern React patterns, component composition, and creating polished user experiences.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+To deploy my website, I used Vercel. This service is connected to my GitHub repository and will automatically update whenever changes are pushed. 
+
+
+## ✍️ Authors
+
+Front End Engineer - Katie Chickering - https://github.com/katiechickering
+
+UI / UX Designer - Helena Contreras - https://www.linkedin.com/in/helena-g-4b5aa0133/
+
+
+## 💭 Feedback and Contributing
+
+If you found this insightful or if you have suggestions, please start a [discussion](https://github.com/katiechickering/my-portfolio/discussions/1)!

@@ -1,8 +1,15 @@
-// app/layout.tsx
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  viewportFit: 'cover',
+  themeColor: '#0B4150',
+};
+
 export const metadata: Metadata = {
+  metadataBase: new URL('https://katie-chickering-portfolio.vercel.app'),
   title: "Katie Chickering | Software Engineer",
   description: "Software Engineer specializing in front-end and mobile development with React and React Native.",
   icons: {
@@ -10,7 +17,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    url: 'katie-chickering-portfolio.vercel.app',
+    url: '/',
     title: 'Katie Chickering | Software Engineer',
     description: 'I build thoughtful digital experiences that help people succeed.',
     siteName: 'Katie Chickering',
@@ -23,15 +30,9 @@ export const metadata: Metadata = {
       }
     ],
   },
-  themeColor: '#0B4150',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black-translucent',
-  },
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    viewportFit: 'cover',
   },
 };
 
@@ -42,7 +43,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="antialiased">{children}</body>
     </html>
   );
 }

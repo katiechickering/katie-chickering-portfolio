@@ -1,11 +1,11 @@
-import BulletIcon from '@/public/assets/icons/BulletIcon.svg';
-import StackIcon from '@/public/assets/icons/StackIcon.svg';
-import FlaskIcon from '@/public/assets/icons/FlaskIcon.svg';
-import SQLIcon from '@/public/assets/icons/SQLIcon.svg';
-import PythonIcon from '@/public/assets/icons/PythonIcon.svg';
-import HTMLIcon from '@/public/assets/icons/HTMLIcon.svg';
-import BirdWatchingPhoto1 from '@/public/assets/BirdWatching/BirdWatchingPhoto1.svg';
-import BirdWatchingPhoto2 from '@/public/assets/BirdWatching/BirdWatchingPhoto2.svg';
+import BulletIcon from '@/assets/icons/BulletIcon.svg';
+import StackIcon from '@/assets/icons/StackIcon.svg';
+import FlaskIcon from '@/assets/icons/FlaskIcon.svg';
+import SQLIcon from '@/assets/icons/SQLIcon.svg';
+import PythonIcon from '@/assets/icons/PythonIcon.svg';
+import HTMLIcon from '@/assets/icons/HTMLIcon.svg';
+import BirdWatchingPhoto1 from '@/assets/BirdWatching/BirdWatchingPhoto1.svg';
+import BirdWatchingPhoto2 from '@/assets/BirdWatching/BirdWatchingPhoto2.svg';
 
 export const BirdWatching = () => {
     return (

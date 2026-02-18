@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // 1. FOR DEVELOPMENT
+  // 1. FOR DEVELOPMENT (Turbopack)
   turbopack: {
     rules: {
       '*.svg': {
@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
           {
             loader: '@svgr/webpack',
             options: {
-              dimensions: false, // Automatically strips width and height
+              dimensions: false,
               icon: true,
             },
           },
@@ -19,17 +19,29 @@ const nextConfig: NextConfig = {
     },
   },
 
-  // 2. FOR PRODUCTION (uses webpack)
+  // 2. FOR PRODUCTION (Webpack)
   webpack(config) {
-    config.module.rules.push({
-      test: /\.svg$/,
-      use: [
-        { 
-          loader: '@svgr/webpack', 
-          options: { dimensions: false, icon: true } 
-        }
-      ],
-    });
+
+    const fileLoaderRule = config.module.rules.find((rule: any) =>
+      rule.test?.test?.('.svg'),
+    );
+
+    config.module.rules.push(
+      {
+        ...fileLoaderRule,
+        test: /\.svg$/i,
+        resourceQuery: /url/,
+      },
+      {
+        test: /\.svg$/i,
+        issuer: fileLoaderRule.issuer,
+        resourceQuery: { not: [...(fileLoaderRule.resourceQuery?.not || []), /url/] },
+        use: [{ loader: '@svgr/webpack', options: { dimensions: false, icon: true } }],
+      },
+    );
+
+    fileLoaderRule.exclude = /\.svg$/i;
+
     return config;
   },
 };

@@ -1,11 +1,11 @@
 'use client';
 
 import { useState } from 'react';
-import { TrackMyChores } from './projects/TrackMyChores';
-import { YosemiteReservations } from './projects/YosemiteReservations';
-import { ClosetOrganizer } from './projects/ClosetOrganizer';
-import { BirdWatching } from './projects/BirdWatching';
-import { PokemonRanker } from './projects/PokemonRanker';
+import { TrackMyChores } from '@/components/projects/TrackMyChores';
+import { YosemiteReservations } from '@/components/projects/YosemiteReservations';
+import { ClosetOrganizer } from '@/components/projects/ClosetOrganizer';
+import { BirdWatching } from '@/components/projects/BirdWatching';
+import { PokemonRanker } from '@/components/projects/PokemonRanker';
 
 type Section =
     | 'trackMyChores'

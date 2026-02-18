@@ -1,11 +1,11 @@
 'use client';
 
-import ArrowIcon from '@/public/assets/icons/ArrowIcon.svg';
-import LinkedInIcon from '@/public/assets/icons/LinkedInIcon.svg';
-import GitHubIcon from '@/public/assets/icons/GitHubIcon.svg';
-import YouTubeIcon from '@/public/assets/icons/YouTubeIcon.svg';
-import WhiteEmailIcon from '@/public/assets/icons/WhiteEmailIcon.svg';
-import ResumeIcon from '@/public/assets/icons/ResumeIcon.svg';
+import ArrowIcon from '@/assets/icons/ArrowIcon.svg';
+import LinkedInIcon from '@/assets/icons/LinkedInIcon.svg';
+import GitHubIcon from '@/assets/icons/GitHubIcon.svg';
+import YouTubeIcon from '@/assets/icons/YouTubeIcon.svg';
+import WhiteEmailIcon from '@/assets/icons/WhiteEmailIcon.svg';
+import ResumeIcon from '@/assets/icons/ResumeIcon.svg';
 
 export const Contact = () => {
     return (

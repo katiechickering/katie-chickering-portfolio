@@ -1,5 +1,5 @@
-import UCSC from '@/public/assets/Education/UCSC.svg';
-import CodingDojo from '@/public/assets/Education/CodingDojo.svg';
+import UCSC from '@/assets/Education/UCSC.svg';
+import CodingDojo from '@/assets/Education/CodingDojo.svg';
 
 export const Education = () => {
     return (

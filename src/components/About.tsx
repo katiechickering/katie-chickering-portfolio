@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Headshot from '@/public/assets/headshot/Headshot.jpeg';
+import Headshot from '@/assets/headshot/Headshot.jpeg'
 
 export const About = () => {
     return (

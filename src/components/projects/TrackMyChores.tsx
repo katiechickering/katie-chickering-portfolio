@@ -1,20 +1,20 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import BulletIcon from '@/public/assets/icons/BulletIcon.svg';
-import DevIcon from '@/public/assets/icons/DevIcon.svg';
-import MobileIcon from '@/public/assets/icons/MobileIcon.svg';
-import ReactIcon from '@/public/assets/icons/ReactIcon.svg';
-import WorkflowIcon from '@/public/assets/icons/WorkflowIcon.svg';
-import TrackMyChores3Phones from '@/public/assets/TrackMyChores/TrackMyChores3Phones.svg';
-import TrackMyChoresPhone1 from '@/public/assets/TrackMyChores/TrackMyChoresPhone1.svg';
-import TrackMyChoresPhone2 from '@/public/assets/TrackMyChores/TrackMyChoresPhone2.svg';
-import TrackMyChoresPhone3 from '@/public/assets/TrackMyChores/TrackMyChoresPhone3.svg';
-import TrackMyChoresPhone4 from '@/public/assets/TrackMyChores/TrackMyChoresPhone4.svg';
-import TrackMyChoresPhone5 from '@/public/assets/TrackMyChores/TrackMyChoresPhone5.svg';
-import TrackMyChoresPhone6 from '@/public/assets/TrackMyChores/TrackMyChoresPhone6.svg';
-import TrackMyChoresPhone7 from '@/public/assets/TrackMyChores/TrackMyChoresPhone7.svg';
-import TrackMyChoresPhone8 from '@/public/assets/TrackMyChores/TrackMyChoresPhone8.svg';
+import BulletIcon from '@/assets/icons/BulletIcon.svg';
+import DevIcon from '@/assets/icons/DevIcon.svg';
+import MobileIcon from '@/assets/icons/MobileIcon.svg';
+import ReactIcon from '@/assets/icons/ReactIcon.svg';
+import WorkflowIcon from '@/assets/icons/WorkflowIcon.svg';
+import TrackMyChores3Phones from '@/assets/TrackMyChores/TrackMyChores3Phones.svg';
+import TrackMyChoresPhone1 from '@/assets/TrackMyChores/TrackMyChoresPhone1.svg';
+import TrackMyChoresPhone2 from '@/assets/TrackMyChores/TrackMyChoresPhone2.svg';
+import TrackMyChoresPhone3 from '@/assets/TrackMyChores/TrackMyChoresPhone3.svg';
+import TrackMyChoresPhone4 from '@/assets/TrackMyChores/TrackMyChoresPhone4.svg';
+import TrackMyChoresPhone5 from '@/assets/TrackMyChores/TrackMyChoresPhone5.svg';
+import TrackMyChoresPhone6 from '@/assets/TrackMyChores/TrackMyChoresPhone6.svg';
+import TrackMyChoresPhone7 from '@/assets/TrackMyChores/TrackMyChoresPhone7.svg';
+import TrackMyChoresPhone8 from '@/assets/TrackMyChores/TrackMyChoresPhone8.svg';
 
 export const TrackMyChores = () => {
     const [isMobile, setIsMobile] = useState(false);

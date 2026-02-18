@@ -5,8 +5,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-
-import YouTubeIcon from '@/public/assets/icons/YouTubeIcon.svg';
+import YouTubeIcon from '@/assets/icons/YouTubeIcon.svg';
 
 type Video = {
     id: string;

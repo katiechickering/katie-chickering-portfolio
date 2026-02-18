@@ -1,10 +1,10 @@
-import BulletIcon from '@/public/assets/icons/BulletIcon.svg';
-import StackIcon from '@/public/assets/icons/StackIcon.svg';
-import WebIcon from '@/public/assets/icons/WebIcon.svg';
-import ReactIcon from '@/public/assets/icons/ReactIcon.svg';
-import SettingsIcon from '@/public/assets/icons/SettingsIcon.svg';
-import YosemiteReservationsPhoto1 from '@/public/assets/YosemiteReservations/YosemiteReservationsPhoto1.svg';
-import YosemiteReservationsPhoto2 from '@/public/assets/YosemiteReservations/YosemiteReservationsPhoto2.svg';
+import BulletIcon from '@/assets/icons/BulletIcon.svg';
+import StackIcon from '@/assets/icons/StackIcon.svg';
+import WebIcon from '@/assets/icons/WebIcon.svg';
+import ReactIcon from '@/assets/icons/ReactIcon.svg';
+import SettingsIcon from '@/assets/icons/SettingsIcon.svg';
+import YosemiteReservationsPhoto1 from '@/assets/YosemiteReservations/YosemiteReservationsPhoto1.svg';
+import YosemiteReservationsPhoto2 from '@/assets/YosemiteReservations/YosemiteReservationsPhoto2.svg';
 
 export const YosemiteReservations = () => {
     return (

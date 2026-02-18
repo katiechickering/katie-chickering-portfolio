@@ -2,8 +2,8 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import HarvardOnline from '@/public/assets/Certifications/HarvardOnline.svg';
-import CS50Certificate from '@/public/assets/Certifications/CS50Certificate.png';
+import HarvardOnline from '@/assets/Certifications/HarvardOnline.svg';
+import CS50Certificate from '@/assets/Certifications/CS50Certificate.png';
 
 export const Certifications = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);

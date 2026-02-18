@@ -1,4 +1,4 @@
-import EmailIcon from '@/public/assets/icons/EmailIcon.svg';
+import EmailIcon from '@/assets/icons/EmailIcon.svg';
 
 export const Home = () => {
     return (

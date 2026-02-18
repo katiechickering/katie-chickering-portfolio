@@ -1,10 +1,10 @@
-import BulletIcon from '@/public/assets/icons/BulletIcon.svg';
-import StackIcon from '@/public/assets/icons/StackIcon.svg';
-import WebIcon from '@/public/assets/icons/WebIcon.svg';
-import ReactIcon from '@/public/assets/icons/ReactIcon.svg';
-import ClockIcon from '@/public/assets/icons/ClockIcon.svg';
-import ClosetOrganizerPhoto1 from '@/public/assets/ClosetOrganizer/ClosetOrganizerPhoto1.svg';
-import ClosetOrganizerPhoto2 from '@/public/assets/ClosetOrganizer/ClosetOrganizerPhoto2.svg';
+import BulletIcon from '@/assets/icons/BulletIcon.svg';
+import StackIcon from '@/assets/icons/StackIcon.svg';
+import WebIcon from '@/assets/icons/WebIcon.svg';
+import ReactIcon from '@/assets/icons/ReactIcon.svg';
+import ClockIcon from '@/assets/icons/ClockIcon.svg';
+import ClosetOrganizerPhoto1 from '@/assets/ClosetOrganizer/ClosetOrganizerPhoto1.svg';
+import ClosetOrganizerPhoto2 from '@/assets/ClosetOrganizer/ClosetOrganizerPhoto2.svg';
 
 export const ClosetOrganizer = () => {
     return (

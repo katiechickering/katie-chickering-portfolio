@@ -27,30 +27,34 @@ export const Contact = () => {
                         href="https://www.linkedin.com/in/katiechickering/"
                         target="_blank"
                         rel="noopener noreferrer"
+                        className="group transition-all duration-300"
                     >
-                        <LinkedInIcon className="w-[33px] h-[33px] shrink-0"/>
+                        <LinkedInIcon className="w-[33px] h-[33px] shrink-0 text-brand-white-text group-hover:text-brand-blue transition-colors"/>
                     </a>
 
                     <a
                         href="https://github.com/katiechickering"
                         target="_blank"
                         rel="noopener noreferrer"
+                        className="group transition-all duration-300"
                     >
-                        <GitHubIcon className="w-[34px] h-[34px] shrink-0"/>
+                        <GitHubIcon className="w-[34px] h-[34px] shrink-0 text-brand-white-text group-hover:text-brand-blue transition-colors"/>
                     </a>
 
                     <a
                         href="https://www.youtube.com/@katiechickering"
                         target="_blank"
                         rel="noopener noreferrer"
+                        className="group transition-all duration-300"
                     >
-                        <YouTubeIcon className="w-[36px] h-[27px] shrink-0"/>
+                        <YouTubeIcon className="w-[36px] h-[27px] shrink-0 text-brand-white-text group-hover:text-brand-blue transition-colors"/>
                     </a>
 
                     <a
                         href="mailto:katiechickering@gmail.com?subject=Portfolio%20Inquiry"
+                        className="group transition-all duration-300"
                     >
-                        <WhiteEmailIcon className="w-[33px] h-[25px] shrink-0"/>
+                        <WhiteEmailIcon className="w-[33px] h-[25px] shrink-0 text-brand-white-text group-hover:text-brand-blue transition-colors"/>
                     </a>
                 </div>
             </div>

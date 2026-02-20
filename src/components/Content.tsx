@@ -73,7 +73,7 @@ export const Content = () => {
                                 </p>
 
                                 <div className="flex items-center gap-2 py-4 ps-12">
-                                    <YouTubeIcon className="w-6 h-auto" />
+                                    <YouTubeIcon className="w-6 h-auto text-brand-white-text" />
                                     <p className="text-[12px] text-brand-white-text font-inter">
                                         YouTube
                                     </p>

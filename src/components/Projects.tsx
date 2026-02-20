@@ -70,17 +70,22 @@ export const Projects = () => {
                 </div>
 
                 {/* Content Panel */}
-                {section === 'trackMyChores' ? (
-                    <TrackMyChores />
-                ) : section === 'yosemiteReservations' ? (
-                    <YosemiteReservations />
-                ) : section === 'closetOrganizer' ? (
-                    <ClosetOrganizer />
-                ) : section === 'birdWatching' ? (
-                    <BirdWatching />
-                ) : (
-                    <PokemonRanker />
-                )}
+                <div
+                    className="flex-1 animate-slide-up md:animate-slide-right"
+                    key={section}
+                >
+                    {section === 'trackMyChores' ? (
+                        <TrackMyChores />
+                    ) : section === 'yosemiteReservations' ? (
+                        <YosemiteReservations />
+                    ) : section === 'closetOrganizer' ? (
+                        <ClosetOrganizer />
+                    ) : section === 'birdWatching' ? (
+                        <BirdWatching />
+                    ) : (
+                        <PokemonRanker />
+                    )}
+                </div>
 
             </div>
         </div>

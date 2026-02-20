@@ -5,6 +5,7 @@ import { Content } from '@/components/Content';
 import { Education } from '@/components/Education';
 import { Home } from '@/components/Home';
 import { Projects } from '@/components/Projects';
+import ScrollReveal from '@/components/ScrollReveal';
 
 export default function HomePage() {
     return (
@@ -16,33 +17,43 @@ export default function HomePage() {
             </div>
 
             {/* About Section */}
-            <div>
+            <ScrollReveal>
                 <About />
-            </div>
+            </ScrollReveal>
 
             {/* Projects Section */}
             <div className="pt-[20vh]">
-                <Projects />
+                <ScrollReveal>
+                  <Projects />
+              </ScrollReveal>
             </div>
 
             {/* YouTube / Content Section */}
             <div className="pt-[20vh]">
-                <Content />
+                <ScrollReveal>
+                  <Content />
+              </ScrollReveal>
             </div>
 
             {/* Education Section */}
             <div className="pt-[20vh]">
-                <Education />
+                <ScrollReveal>
+                  <Education />
+              </ScrollReveal>
             </div>
 
             {/* Certifications Section */}
             <div className="pt-[20vh]">
-                <Certifications />
+                <ScrollReveal>
+                  <Certifications />
+              </ScrollReveal>
             </div>
 
             {/* Contact Section */}
             <div className="pt-[20vh] mb-25">
-                <Contact />
+                <ScrollReveal>
+                  <Contact />
+              </ScrollReveal>
             </div>
 
         </div>

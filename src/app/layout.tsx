@@ -12,6 +12,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL('https://katie-chickering-portfolio.vercel.app'),
   title: "Katie Chickering | Software Engineer",
+  authors: [{ name: "Katie Chickering" }],
   description: "Software Engineer specializing in front-end and mobile development with React and React Native.",
   icons: {
     icon: '/BulletIcon.svg',

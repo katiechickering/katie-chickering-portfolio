@@ -23,7 +23,7 @@ export const Home = () => {
                 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
             >
                 Software Engineer | Front-End & Mobile Development
-                | Specialized in React Native & JavaScript
+                | Specialized in React Native & TypeScript
                 Frameworks | Dedicated Project Lab Experience
             </p>
 

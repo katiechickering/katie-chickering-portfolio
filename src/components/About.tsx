@@ -23,7 +23,7 @@ export const About = () => {
                         I specialize in <span className="text-brand-blue">front-end</span> and
                         <span className="text-brand-blue"> mobile development</span>, specifically with
                         <span className="text-brand-blue"> React / React Native</span> and
-                        <span className="text-brand-blue"> Javascript frameworks</span>.
+                        <span className="text-brand-blue"> TypeScript frameworks</span>.
                     </p>
 
                     <p>

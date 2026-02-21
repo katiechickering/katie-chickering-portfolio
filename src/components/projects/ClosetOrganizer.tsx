@@ -77,7 +77,7 @@ export const ClosetOrganizer = () => {
 
             <ul className="ms-8 text-[14px] list-disc list-outside flex flex-col gap-2 leading-[27px]">
                 <li><span className="font-bold">Core Stack:</span> Vite, React, Node.js + Express, MongoDB</li>
-                <li><span className="font-bold">Languages:</span> Javascript</li>
+                <li><span className="font-bold">Languages:</span> Javascript, JSX</li>
                 <li><span className="font-bold">TailWindCSS:</span> Front-end styling</li>
                 <li><span className="font-bold">Vercel:</span> Front-end website deployment</li>
                 <li><span className="font-bold">Render:</span> Backend server deployment</li>

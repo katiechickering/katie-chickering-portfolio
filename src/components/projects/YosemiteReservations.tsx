@@ -76,8 +76,8 @@ export const YosemiteReservations = () => {
             </div>
 
             <ul className="ms-8 text-[14px] list-disc list-outside flex flex-col gap-2 leading-[27px]">
-                <li><span className="font-bold">Core Stack:</span> Vite, React, Node.js + Express, MongoDB</li>
-                <li><span className="font-bold">Languages:</span> Javascript</li>
+                <li><span className="font-bold">Core Stack:</span> Next.js, React, Node.js + Express, MongoDB</li>
+                <li><span className="font-bold">Languages:</span> TypeScript, TSX</li>
                 <li><span className="font-bold">TailWindCSS:</span> Front-end styling</li>
                 <li><span className="font-bold">National Park Service:</span> Public API</li>
                 <li><span className="font-bold">Vercel:</span> Front-end website deployment</li>
@@ -113,7 +113,7 @@ export const YosemiteReservations = () => {
 
             <ul className="ms-8 text-[14px] list-disc list-outside flex flex-col gap-6 leading-[27px]">
                 <li>
-                    This project was built with a Node.js and Express backend and a React frontend styled with Tailwind CSS. Created with an MVC structure,
+                    This project was built with a Node.js and Express backend and a Next.js and React frontend styled with Tailwind CSS. Created with an MVC structure,
                     this app uses MongoDB for the model, an Express API as the controller, and React for the view.
                 </li>
                 <li>

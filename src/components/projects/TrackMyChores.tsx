@@ -108,7 +108,7 @@ export const TrackMyChores = () => {
 
             <ul className="ms-8 text-[14px] list-disc list-outside flex flex-col gap-2 leading-[27px]">
                 <li><span className="font-bold">Core Stack:</span> Expo Go + EAS Build, React Native, Node.js + Express, MongoDB</li>
-                <li><span className="font-bold">Languages:</span> Javascript</li>
+                <li><span className="font-bold">Languages:</span> Javascript, JSX</li>
                 <li><span className="font-bold">Cloudfare R2:</span> Image storage</li>
                 <li><span className="font-bold">Agenda:</span> Server-side job scheduling</li>
                 <li><span className="font-bold">EmailJS:</span> Registration and password reset emails</li>

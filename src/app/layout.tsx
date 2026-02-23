@@ -15,9 +15,6 @@ export const metadata: Metadata = {
   title: "Katie Chickering | Software Engineer",
   authors: [{ name: "Katie Chickering" }],
   description: "Software Engineer specializing in front-end and mobile development with React and React Native.",
-  icons: {
-    icon: '/BulletIcon.svg',
-  },
   openGraph: {
     type: 'website',
     url: '/',

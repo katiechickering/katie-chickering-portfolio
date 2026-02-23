@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     type: 'website',
     url: '/',
     title: 'Katie Chickering | Software Engineer',
-    description: 'I build thoughtful digital experiences that help people succeed.',
+    description: 'Software Engineer specializing in front-end and mobile development with React and React Native.',
     siteName: 'Katie Chickering',
     images: [
       {

@@ -24,36 +24,36 @@ export default function HomePage() {
             {/* Projects Section */}
             <div className="pt-[20vh]">
                 <ScrollReveal>
-                  <Projects />
-              </ScrollReveal>
+                    <Projects />
+                </ScrollReveal>
             </div>
 
             {/* YouTube / Content Section */}
             <div className="pt-[20vh]">
                 <ScrollReveal>
-                  <Content />
-              </ScrollReveal>
+                    <Content />
+                </ScrollReveal>
             </div>
 
             {/* Education Section */}
             <div className="pt-[20vh]">
                 <ScrollReveal>
-                  <Education />
-              </ScrollReveal>
+                    <Education />
+                </ScrollReveal>
             </div>
 
             {/* Certifications Section */}
             <div className="pt-[20vh]">
                 <ScrollReveal>
-                  <Certifications />
-              </ScrollReveal>
+                    <Certifications />
+                </ScrollReveal>
             </div>
 
             {/* Contact Section */}
             <div className="pt-[20vh] mb-25">
                 <ScrollReveal>
-                  <Contact />
-              </ScrollReveal>
+                    <Contact />
+                </ScrollReveal>
             </div>
 
         </div>

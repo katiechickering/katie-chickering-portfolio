@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import HarvardOnline from '@/assets/Certifications/HarvardOnline.svg';
 import CS50Certificate from '@/assets/Certifications/CS50Certificate.png';
+import { createPortal } from 'react-dom';
 
 export const Certifications = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -55,13 +56,14 @@ export const Certifications = () => {
             </div>
 
             {/* Modal */}
-            {isModalOpen && (
+            {/* Modal - rendered at document.body level */}
+            {isModalOpen && typeof document !== 'undefined' && createPortal(
                 <div
                     className="fixed inset-0 bg-black/50 flex items-center justify-center z-50"
                     onClick={() => setIsModalOpen(false)}
                 >
                     <div className="w-full overflow-x-auto flex justify-center">
-                        <div
+                        <div 
                             className="shrink-0 w-[572px] md:max-w-3xl md:w-full"
                             onClick={(e) => e.stopPropagation()}
                         >
@@ -73,7 +75,8 @@ export const Certifications = () => {
                             />
                         </div>
                     </div>
-                </div>
+                </div>,
+                document.body
             )}
         </div>
     );

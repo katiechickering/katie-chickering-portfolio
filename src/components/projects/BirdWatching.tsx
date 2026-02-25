@@ -17,6 +17,8 @@ export const BirdWatching = () => {
             <div className="flex gap-6 mb-4">
                 <a
                     href="https://bird-watching-theta.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-brand-blue border-brand-blue
                     border rounded-full py-2 px-4 text-[13px] hover:bg-[#0C576D] mt-4"
                 >
@@ -25,6 +27,8 @@ export const BirdWatching = () => {
 
                 <a
                     href="https://github.com/katiechickering/bird-watching"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-brand-blue border-brand-blue
                     border rounded-full py-2 px-4 text-[13px] hover:bg-[#0C576D] mt-4"
                 >

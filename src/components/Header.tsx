@@ -68,52 +68,45 @@ export const Header = () => {
                         className="bg-[#0C576D] w-fit ml-auto z-50 relative"
                         onClick={(e) => e.stopPropagation()}
                     >
-                        <div className="flex flex-col text-brand-white-text font-inter px-4 py-2">
+                        <div className="flex flex-col text-brand-white-text font-inter px-4 py-4 gap-4">
                             <a 
-                                href="#home" 
-                                className="py-2 hover:text-brand-blue transition-colors"
+                                href="#home"
                                 onClick={() => setIsOpen(false)}
                             >
                                 Home
                             </a>
                             <a 
-                                href="#about" 
-                                className="py-2 hover:text-brand-blue transition-colors"
+                                href="#about"
                                 onClick={() => setIsOpen(false)}
                             >
                                 About
                             </a>
                             <a 
-                                href="#projects" 
-                                className="py-2 hover:text-brand-blue transition-colors"
+                                href="#projects"
                                 onClick={() => setIsOpen(false)}
                             >
                                 Projects
                             </a>
                             <a 
-                                href="#content" 
-                                className="py-2 hover:text-brand-blue transition-colors"
+                                href="#content"
                                 onClick={() => setIsOpen(false)}
                             >
                                 Content
                             </a>
                             <a 
-                                href="#education" 
-                                className="py-2 hover:text-brand-blue transition-colors"
+                                href="#education"
                                 onClick={() => setIsOpen(false)}
                             >
                                 Education
                             </a>
                             <a 
-                                href="#certifications" 
-                                className="py-2 hover:text-brand-blue transition-colors"
+                                href="#certifications"
                                 onClick={() => setIsOpen(false)}
                             >
                                 Certifications
                             </a>
                             <a 
-                                href="#contact" 
-                                className="py-2 hover:text-brand-blue transition-colors"
+                                href="#contact"
                                 onClick={() => setIsOpen(false)}
                             >
                                 Contact

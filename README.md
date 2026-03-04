@@ -25,7 +25,7 @@ Check out the deployed website [HERE](https://katie-chickering-portfolio.vercel.
 
 ## ℹ️ Overview
 
-This portfolio website showcases my work as a front-end developer through a clean, modern interface built with Typescript, React, and Next.js. The site was designed in Figma in collaboration with a UI/UX designer and built with TailwindCSS for consistent, professional styling. The project demonstrates proficiency in modern React patterns, component composition, and creating polished user experiences.
+This portfolio website showcases my work as a front-end developer through a clean, modern interface built with Typescript, React, and Next.js. The site was designed in Figma in collaboration with a UI/UX designer and built with TailwindCSS for consistent, professional styling. Rather than simply scaling layouts, the site delivers intentionally crafted mobile and desktop experiences tailored to each platform. The result demonstrates proficiency in modern React patterns, component composition, and creating polished user experiences.
 
 
 ## 🚀 Deployment

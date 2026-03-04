@@ -2,8 +2,6 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import HarvardOnline from '@/assets/Certifications/HarvardOnline.svg';
-import CS50Certificate from '@/assets/Certifications/CS50Certificate.png';
 import { createPortal } from 'react-dom';
 
 export const Certifications = () => {
@@ -21,7 +19,13 @@ export const Certifications = () => {
             >
                 {/* Logo */}
                 <div className="w-full md:w-28 flex items-center md:items-start justify-center md:justify-start shrink-0">
-                    <HarvardOnline className="w-20 md:w-full h-auto" />
+                    <Image
+                        src="/Certifications/HarvardOnline.svg"
+                        alt="Harvard Online Certificate"
+                        width={110}
+                        height={102}
+                        className="w-20 md:w-full h-auto"
+                    />
                 </div>
 
                 {/* Content */}
@@ -67,8 +71,10 @@ export const Certifications = () => {
                             onClick={(e) => e.stopPropagation()}
                         >
                             <Image
-                                src={CS50Certificate}
+                                src="/Certifications/CS50Certificate.png"
                                 alt="CS50 Certificate"
+                                width={2112}
+                                height={1632}
                                 className="w-full h-auto rounded-2xl shadow-2xl"
                                 priority
                             />

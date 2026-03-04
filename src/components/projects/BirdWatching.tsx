@@ -4,8 +4,7 @@ import FlaskIcon from '@/assets/icons/FlaskIcon.svg';
 import SQLIcon from '@/assets/icons/SQLIcon.svg';
 import PythonIcon from '@/assets/icons/PythonIcon.svg';
 import HTMLIcon from '@/assets/icons/HTMLIcon.svg';
-import BirdWatchingPhoto1 from '@/assets/BirdWatching/BirdWatchingPhoto1.svg';
-import BirdWatchingPhoto2 from '@/assets/BirdWatching/BirdWatchingPhoto2.svg';
+import Image from 'next/image';
 
 export const BirdWatching = () => {
     return (
@@ -121,7 +120,13 @@ export const BirdWatching = () => {
             <div className="-mx-4 md:mx-0">
                 <div className="flex justify-start md:justify-center my-8 w-full overflow-x-auto">
                     <div className="shrink-0 min-w-[572px] md:w-full px-4 md:px-0">
-                        <BirdWatchingPhoto1 className="w-full h-auto" />
+                        <Image
+                            src="/BirdWatching/BirdWatchingPhoto1.svg"
+                            alt="Bird Watching screenshot 1"
+                            width={608}
+                            height={327}
+                            className="w-full h-auto"
+                        />
                     </div>
                 </div>
             </div>
@@ -148,7 +153,13 @@ export const BirdWatching = () => {
             <div className="-mx-4 md:mx-0">
                 <div className="flex justify-start md:justify-center my-8 w-full overflow-x-auto">
                     <div className="shrink-0 min-w-[572px] md:w-full px-4 md:px-0">
-                        <BirdWatchingPhoto2 className="w-full h-auto" />
+                        <Image
+                            src="/BirdWatching/BirdWatchingPhoto2.svg"
+                            alt="Bird Watching screenshot 2"
+                            width={608}
+                            height={333}
+                            className="w-full h-auto"
+                        />
                     </div>
                 </div>
             </div>

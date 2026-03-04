@@ -3,8 +3,7 @@ import StackIcon from '@/assets/icons/StackIcon.svg';
 import WebIcon from '@/assets/icons/WebIcon.svg';
 import ReactIcon from '@/assets/icons/ReactIcon.svg';
 import ClockIcon from '@/assets/icons/ClockIcon.svg';
-import ClosetOrganizerPhoto1 from '@/assets/ClosetOrganizer/ClosetOrganizerPhoto1.svg';
-import ClosetOrganizerPhoto2 from '@/assets/ClosetOrganizer/ClosetOrganizerPhoto2.svg';
+import Image from 'next/image';
 
 export const ClosetOrganizer = () => {
     return (
@@ -100,7 +99,13 @@ export const ClosetOrganizer = () => {
             <div className="-mx-4 md:mx-0">
                 <div className="flex justify-start md:justify-center my-8 w-full overflow-x-auto">
                     <div className="shrink-0 min-w-[572px] md:w-full px-4 md:px-0">
-                        <ClosetOrganizerPhoto1 className="w-full h-auto" />
+                        <Image
+                            src="/ClosetOrganizer/ClosetOrganizerPhoto1.svg"
+                            alt="Closet Organizer screenshot 1"
+                            width={608}
+                            height={327}
+                            className="w-full h-auto"
+                        />
                     </div>
                 </div>
             </div>
@@ -128,7 +133,13 @@ export const ClosetOrganizer = () => {
             <div className="-mx-4 md:mx-0">
                 <div className="flex justify-start md:justify-center my-8 w-full overflow-x-auto">
                     <div className="shrink-0 min-w-[572px] md:w-full px-4 md:px-0">
-                        <ClosetOrganizerPhoto2 className="w-full h-auto" />
+                        <Image
+                            src="/ClosetOrganizer/ClosetOrganizerPhoto2.svg"
+                            alt="Closet Organizer screenshot 2"
+                            width={608}
+                            height={333}
+                            className="w-full h-auto"
+                        />
                     </div>
                 </div>
             </div>

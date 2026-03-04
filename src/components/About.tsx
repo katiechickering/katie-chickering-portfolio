@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Headshot from '@/assets/headshot/Headshot.jpeg'
 
 export const About = () => {
     return (
@@ -12,9 +11,11 @@ export const About = () => {
                 
                 {/* Desktop Image */}
                 <Image
-                    src={Headshot}
+                    src={"/headshot/Headshot.jpeg"}
                     alt="Katie Chickering"
-                    className="hidden md:block md:w-56 lg:w-[366px] h-auto"
+                    className="hidden md:block"
+                    width={366}
+                    height={366}
                 />
 
                 <div className="font-ntr text-[16px] md:text-[20px] text-brand-white-text leading-6 md:leading-7 flex flex-col gap-5">
@@ -49,9 +50,11 @@ export const About = () => {
 
                 {/* Mobile Image */}
                 <Image
-                    src={Headshot}
+                    src={"/headshot/Headshot.jpeg"}
                     alt="Katie Chickering"
-                    className="md:hidden block mx-auto w-[186px] h-auto"
+                    className="md:hidden block mx-auto"
+                    width={186}
+                    height={186}
                 />
 
             </div>

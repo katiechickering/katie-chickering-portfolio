@@ -1,5 +1,4 @@
-import UCSC from '@/assets/Education/UCSC.svg';
-import CodingDojo from '@/assets/Education/CodingDojo.svg';
+import Image from 'next/image';
 
 export const Education = () => {
     return (
@@ -18,7 +17,13 @@ export const Education = () => {
                             rounded-2xl border border-[#3A4245] shrink-0 gap-3 w-[80vw] md:w-auto"
                         >
                             <div className="w-full md:w-28 flex items-center md:items-start justify-center md:justify-start shrink-0">
-                                <CodingDojo className="w-20 md:w-full h-auto" />
+                                <Image
+                                    src="/Education/CodingDojo.svg"
+                                    alt="Coding Dojo Certificate"
+                                    width={110}
+                                    height={110}
+                                    className="w-20 md:w-full h-auto"
+                                />
                             </div>
 
                             <div className="flex flex-col font-inter text-brand-white-text text-[14px] md:ml-12">
@@ -69,7 +74,13 @@ export const Education = () => {
                             rounded-2xl border border-[#3A4245] md:mt-9 shrink-0 gap-3 w-[80vw] md:w-auto"
                         >
                             <div className="w-full md:w-28 flex items-center md:items-start justify-center md:justify-start shrink-0">
-                                <UCSC className="w-20 md:w-full h-auto" />
+                                <Image
+                                    src="/Education/UCSC.svg"
+                                    alt="UCSC Certificate"
+                                    width={110}
+                                    height={110}
+                                    className="w-20 md:w-full h-auto"
+                                />
                             </div>
 
                             <div className="flex flex-col font-inter text-brand-white-text text-[14px] md:ml-12 h-full justify-between">

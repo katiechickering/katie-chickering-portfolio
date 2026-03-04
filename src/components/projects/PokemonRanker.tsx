@@ -4,8 +4,7 @@ import FlaskIcon from '@/assets/icons/FlaskIcon.svg';
 import SQLIcon from '@/assets/icons/SQLIcon.svg';
 import PythonIcon from '@/assets/icons/PythonIcon.svg';
 import HTMLIcon from '@/assets/icons/HTMLIcon.svg';
-import PokemonRankerPhoto1 from '@/assets/PokemonRanker/PokemonRankerPhoto1.svg';
-import PokemonRankerPhoto2 from '@/assets/PokemonRanker/PokemonRankerPhoto2.svg';
+import Image from 'next/image';
 
 export const PokemonRanker = () => {
     return (
@@ -99,7 +98,13 @@ export const PokemonRanker = () => {
             <div className="-mx-4 md:mx-0">
                 <div className="flex justify-start md:justify-center my-8 w-full overflow-x-auto">
                     <div className="shrink-0 min-w-[572px] md:w-full px-4 md:px-0">
-                        <PokemonRankerPhoto1 className="w-full h-auto" />
+                        <Image
+                            src="/PokemonRanker/PokemonRankerPhoto1.svg"
+                            alt="Pokemon Ranker screenshot 1"
+                            width={608}
+                            height={341}
+                            className="w-full h-auto"
+                        />
                     </div>
                 </div>
             </div>
@@ -125,7 +130,13 @@ export const PokemonRanker = () => {
             <div className="-mx-4 md:mx-0">
                 <div className="flex justify-start md:justify-center my-8 w-full overflow-x-auto">
                     <div className="shrink-0 min-w-[572px] md:w-full px-4 md:px-0">
-                        <PokemonRankerPhoto2 className="w-full h-auto" />
+                        <Image
+                            src="/PokemonRanker/PokemonRankerPhoto2.svg"
+                            alt="Pokemon Ranker screenshot 2"
+                            width={608}
+                            height={340}
+                            className="w-full h-auto"
+                        />
                     </div>
                 </div>
             </div>

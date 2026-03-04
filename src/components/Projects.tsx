@@ -33,7 +33,7 @@ export const Projects = () => {
                     >
                         {/* Indicator bar */}
                         <div
-                            className="hidden md:block absolute right-0 w-[2px] bg-brand-blue transition-all duration-300 ease-in-out rounded-full"
+                            className="hidden md:block absolute right-0 w-0.5 bg-brand-blue transition-all duration-300 ease-in-out rounded-full"
                             style={{
                                 height: '48px',
                                 transform: `translateY(${

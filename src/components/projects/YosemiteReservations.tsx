@@ -3,8 +3,7 @@ import StackIcon from '@/assets/icons/StackIcon.svg';
 import WebIcon from '@/assets/icons/WebIcon.svg';
 import ReactIcon from '@/assets/icons/ReactIcon.svg';
 import SettingsIcon from '@/assets/icons/SettingsIcon.svg';
-import YosemiteReservationsPhoto1 from '@/assets/YosemiteReservations/YosemiteReservationsPhoto1.svg';
-import YosemiteReservationsPhoto2 from '@/assets/YosemiteReservations/YosemiteReservationsPhoto2.svg';
+import Image from 'next/image';
 
 export const YosemiteReservations = () => {
     return (
@@ -101,7 +100,13 @@ export const YosemiteReservations = () => {
             <div className="-mx-4 md:mx-0">
                 <div className="flex justify-start md:justify-center my-8 w-full overflow-x-auto">
                     <div className="shrink-0 min-w-[572px] md:w-full px-4 md:px-0">
-                        <YosemiteReservationsPhoto1 className="w-full h-auto" />
+                        <Image
+                            src="/YosemiteReservations/YosemiteReservationsPhoto1.svg"
+                            alt="Yosemite Reservations screenshot 1"
+                            width={608}
+                            height={333}
+                            className="w-full h-auto"
+                        />
                     </div>
                 </div>
             </div>
@@ -129,7 +134,13 @@ export const YosemiteReservations = () => {
             <div className="-mx-4 md:mx-0">
                 <div className="flex justify-start md:justify-center my-8 w-full overflow-x-auto">
                     <div className="shrink-0 min-w-[572px] md:w-full px-4 md:px-0">
-                        <YosemiteReservationsPhoto2 className="w-full h-auto" />
+                        <Image
+                            src="/YosemiteReservations/YosemiteReservationsPhoto2.svg"
+                            alt="Yosemite Reservations screenshot 2"
+                            width={608}
+                            height={333}
+                            className="w-full h-auto"
+                        />
                     </div>
                 </div>
             </div>

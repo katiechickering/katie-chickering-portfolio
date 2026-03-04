@@ -20,7 +20,7 @@ Check out the deployed website [HERE](https://katie-chickering-portfolio.vercel.
 - Watch YouTube videos with direct routing to full content
 - View certifications instantly with modal-based image display
 - Access LinkedIn, GitHub, and professional profiles through integrated contact icons
-- Experience fully responsive design that adapts between desktop and mobile layouts
+- Experience a fully responsive design that adapts thoughtfully between desktop and mobile layouts
 
 
 ## ℹ️ Overview

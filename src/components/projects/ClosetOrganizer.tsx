@@ -169,8 +169,28 @@ export const ClosetOrganizer = () => {
             </div>
 
             <ul className="ms-8 text-[14px] list-disc list-outside flex flex-col gap-2 leading-[27px]">
-                <li>Katie Chickering - https://github.com/katiechickering</li>
-                <li>Shadrach Tercy - http://github.com/theclassic2</li>
+                <li>
+                    Full-Stack Engineer - Katie Chickering -{' '}
+                    <a 
+                        href="https://github.com/katiechickering" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-brand-blue hover:underline"
+                    >
+                        github.com/katiechickering
+                    </a>
+                </li>
+                <li>
+                    Full-Stack Engineer - Shadrach Tercy -{' '}
+                    <a
+                        href="http://github.com/theclassic2"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-brand-blue hover:underline"
+                    >
+                        github.com/theclassic2
+                    </a>
+                </li>
             </ul>
         </div>
     );

@@ -168,8 +168,28 @@ export const HelenasPortfolio = () => {
             </div>
 
             <ul className="ms-8 text-[14px] list-disc list-outside flex flex-col gap-2 leading-[27px]">
-                <li>Front End Engineer - Katie Chickering - https://github.com/katiechickering</li>
-                <li>UI / UX Designer - Helena Contreras - https://www.linkedin.com/in/helena-g-4b5aa0133/</li>
+                <li>
+                    Front-end Engineer - Katie Chickering -{' '}
+                    <a 
+                        href="https://github.com/katiechickering" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-brand-blue hover:underline"
+                    >
+                        github.com/katiechickering
+                    </a>
+                </li>
+                <li>
+                    UI / UX Designer - Helena Contreras -{' '}
+                    <a 
+                        href="https://www.linkedin.com/in/helena-g-4b5aa0133/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-brand-blue hover:underline"
+                    >
+                        linkedin.com/in/helena-g-4b5aa0133
+                    </a>
+                </li>
             </ul>
         </div>
     );

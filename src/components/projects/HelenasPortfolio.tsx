@@ -100,13 +100,13 @@ export const HelenasPortfolio = () => {
 
             <div className="-mx-4 md:mx-0">
                 <div className="flex justify-start md:justify-center my-8 w-full overflow-x-auto">
-                    <div className="shrink-0 min-w-[572px] md:w-full px-4 md:px-0">
+                    <div className="shrink-0 min-w-[608px] md:w-full px-4 md:px-0">
                         <Image
-                            src="/TrackMyChores/TrackMyChores3Phones.svg"
-                            alt="Track My Chores preview"
-                            width={572}
-                            height={336}
-                            className="w-full h-auto"
+                            src="/HelenasPortfolio/HelenasPortfolioWeb.png"
+                            alt="Helenas Portfolio web screenshot"
+                            width={608}
+                            height={347}
+                            className="w-[608px] md:w-full h-auto"
                         />
                     </div>
                 </div>
@@ -136,18 +136,35 @@ export const HelenasPortfolio = () => {
                 </li>
             </ul>
 
-            <div className="-mx-4 md:mx-0">
-                <div className="flex justify-start md:justify-center my-8 w-full overflow-x-auto">
-                    <div className="shrink-0 min-w-[572px] md:w-full px-4 md:px-0">
-                        <Image
-                            src="/YosemiteReservations/YosemiteReservationsPhoto2.svg"
-                            alt="Yosemite Reservations screenshot 2"
-                            width={608}
-                            height={333}
-                            className="w-full h-auto"
-                        />
-                    </div>
-                </div>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-8">
+                <Image
+                    src="/HelenasPortfolio/HelenasPortfolioMobile1.png"
+                    alt="Helenas Portfolio mobile screenshot 1"
+                    width={1170}
+                    height={2532}
+                    className="w-full h-auto rounded-[20px]"
+                />
+                <Image
+                    src="/HelenasPortfolio/HelenasPortfolioMobile2.png"
+                    alt="Helenas Portfolio mobile screenshot 1"
+                    width={1170}
+                    height={2532}
+                    className="w-full h-auto rounded-[20px]"
+                />
+                <Image
+                    src="/HelenasPortfolio/HelenasPortfolioMobile3.png"
+                    alt="Helenas Portfolio mobile screenshot 3"
+                    width={1170}
+                    height={2532}
+                    className="w-full h-auto rounded-[20px]"
+                />
+                <Image
+                    src="/HelenasPortfolio/HelenasPortfolioMobile4.png"
+                    alt="Helenas Portfolio mobile screenshot 4"
+                    width={1170}
+                    height={2532}
+                    className="w-full h-auto rounded-[20px]"
+                />
             </div>
 
             <div className="flex gap-4 items-center mb-4 mt-8">

@@ -1,6 +1,3 @@
-'use client';
-
-import { useState, useEffect } from 'react';
 import BulletIcon from '@/assets/icons/BulletIcon.svg';
 import DevIcon from '@/assets/icons/DevIcon.svg';
 import MobileIcon from '@/assets/icons/MobileIcon.svg';
@@ -9,18 +6,11 @@ import WorkflowIcon from '@/assets/icons/WorkflowIcon.svg';
 import Image from 'next/image';
 
 export const TrackMyChores = () => {
-    const [isMobile, setIsMobile] = useState(false);
 
-    useEffect(() => {
-        const checkMobile = () => {
-            setIsMobile(window.innerWidth < 768);
-        };
-        
-        checkMobile();
-        window.addEventListener('resize', checkMobile);
-        
-        return () => window.removeEventListener('resize', checkMobile);
-    }, []);
+    const screenGroups = [
+        [5, 6, 7, 8],
+        [1, 2, 3, 4]
+    ]
 
     return (
         <div className="flex flex-col font-inter text-brand-white-text">
@@ -158,135 +148,43 @@ export const TrackMyChores = () => {
                 </li>
             </ul>
 
-            {isMobile ? (
-                <div className="-mx-4">
-                    <div className="overflow-x-auto flex gap-6 scroll-smooth mt-10 pb-2 px-4">
-                        <div className="shrink-0 w-[272px] grid grid-cols-2 gap-3">
-                            <Image
-                                src="/TrackMyChores/TrackMyChoresPhone5.svg"
-                                alt="Track My Chores screen 5"
-                                width={126}
-                                height={253}
-                                className="w-[126px] h-auto"
-                            />
-                            <Image
-                                src="/TrackMyChores/TrackMyChoresPhone6.svg"
-                                alt="Track My Chores screen 6"
-                                width={126}
-                                height={253}
-                                className="w-[126px] h-auto"
-                            />
-                            <Image
-                                src="/TrackMyChores/TrackMyChoresPhone7.svg"
-                                alt="Track My Chores screen 7"
-                                width={126}
-                                height={253}
-                                className="w-[126px] h-auto"
-                            />
-                            <Image
-                                src="/TrackMyChores/TrackMyChoresPhone8.svg"
-                                alt="Track My Chores screen 8"
-                                width={126}
-                                height={253}
-                                className="w-[126px] h-auto"
-                            />
+            <div className="-mx-4 md:mx-0 mt-10">
+                {/* Mobile: horizontal scroll */}
+                <div className="flex md:hidden overflow-x-auto gap-6 scroll-smooth pb-2 px-4">
+                    {screenGroups.map((group, i) => (
+                        <div key={i} className="shrink-0 w-[272px] grid grid-cols-2 gap-3">
+                            {group.map((num) => (
+                                <Image
+                                    key={num}
+                                    src={`/TrackMyChores/TrackMyChoresPhone${num}.svg`}
+                                    alt={`Track My Chores screen ${num}`}
+                                    width={126}
+                                    height={253}
+                                    className="w-[126px] h-auto"
+                                />
+                            ))}
                         </div>
-                        <div className="shrink-0 w-[272px] grid grid-cols-2 gap-3">
-                            <Image
-                                src="/TrackMyChores/TrackMyChoresPhone1.svg"
-                                alt="Track My Chores screen 1"
-                                width={126}
-                                height={253}
-                                className="w-[126px] h-auto"
-                            />
-                            <Image
-                                src="/TrackMyChores/TrackMyChoresPhone2.svg"
-                                alt="Track My Chores screen 2"
-                                width={126}
-                                height={253}
-                                className="w-[126px] h-auto"
-                            />
-                            <Image
-                                src="/TrackMyChores/TrackMyChoresPhone3.svg"
-                                alt="Track My Chores screen 3"
-                                width={126}
-                                height={253}
-                                className="w-[126px] h-auto"
-                            />
-                            <Image
-                                src="/TrackMyChores/TrackMyChoresPhone4.svg"
-                                alt="Track My Chores screen 4"
-                                width={126}
-                                height={253}
-                                className="w-[126px] h-auto"
-                            />
+                    ))}
+                </div>
+
+                {/* Desktop: two rows */}
+                <div className="hidden md:block">
+                    {screenGroups.map((group, i) => (
+                        <div key={i} className="flex justify-center gap-4 mt-6 first:mt-0">
+                            {group.map((num) => (
+                                <Image
+                                    key={num}
+                                    src={`/TrackMyChores/TrackMyChoresPhone${num}.svg`}
+                                    alt={`Track My Chores screen ${num}`}
+                                    width={126}
+                                    height={253}
+                                    className="flex-1 min-w-0 h-auto"
+                                />
+                            ))}
                         </div>
-                    </div>
+                    ))}
                 </div>
-            ) : (
-                <div>
-                    <div className="flex justify-center gap-4 mt-10">
-                        <Image
-                            src="/TrackMyChores/TrackMyChoresPhone5.svg"
-                            alt="Screen 5"
-                            width={126}
-                            height={253}
-                            className="flex-1 min-w-0 h-auto"
-                        />
-                        <Image
-                            src="/TrackMyChores/TrackMyChoresPhone6.svg"
-                            alt="Screen 6"
-                            width={126}
-                            height={253}
-                            className="flex-1 min-w-0 h-auto"
-                        />
-                        <Image
-                            src="/TrackMyChores/TrackMyChoresPhone7.svg"
-                            alt="Screen 7"
-                            width={126}
-                            height={253}
-                            className="flex-1 min-w-0 h-auto"
-                        />
-                        <Image
-                            src="/TrackMyChores/TrackMyChoresPhone8.svg"
-                            alt="Screen 8"
-                            width={126}
-                            height={253}
-                            className="flex-1 min-w-0 h-auto"
-                        />
-                    </div>
-                    <div className="flex justify-center gap-4 mt-6">
-                        <Image
-                            src="/TrackMyChores/TrackMyChoresPhone1.svg"
-                            alt="Screen 1"
-                            width={126}
-                            height={253}
-                            className="flex-1 min-w-0 h-auto"
-                        />
-                        <Image
-                            src="/TrackMyChores/TrackMyChoresPhone2.svg"
-                            alt="Screen 2"
-                            width={126}
-                            height={253}
-                            className="flex-1 min-w-0 h-auto"
-                        />
-                        <Image
-                            src="/TrackMyChores/TrackMyChoresPhone3.svg"
-                            alt="Screen 3"
-                            width={126}
-                            height={253}
-                            className="flex-1 min-w-0 h-auto"
-                        />
-                        <Image
-                            src="/TrackMyChores/TrackMyChoresPhone4.svg"
-                            alt="Screen 4"
-                            width={126}
-                            height={253}
-                            className="flex-1 min-w-0 h-auto"
-                        />
-                    </div>
-                </div>
-            )}
+            </div>
 
             <div className="flex gap-4 items-center mb-4 mt-8">
                 <BulletIcon className="w-1.5 h-1.5 shrink-0"/>

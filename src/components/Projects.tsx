@@ -6,16 +6,32 @@ import { YosemiteReservations } from '@/components/projects/YosemiteReservations
 import { ClosetOrganizer } from '@/components/projects/ClosetOrganizer';
 import { BirdWatching } from '@/components/projects/BirdWatching';
 import { PokemonRanker } from '@/components/projects/PokemonRanker';
+import { HelenasPortfolio } from './projects/HelenasPortfolio';
 
 type Section =
     | 'trackMyChores'
     | 'yosemiteReservations'
+    | 'helenasPortfolio'
     | 'closetOrganizer'
     | 'birdWatching'
     | 'pokemonRanker';
 
 export const Projects = () => {
     const [section, setSection] = useState<Section>('trackMyChores');
+
+    const sections = [
+        { key: 'trackMyChores', label: 'TRACK MY CHORES' },
+        { key: 'yosemiteReservations', label: 'YOSEMITE CAMPSITES' },
+        { key: 'helenasPortfolio', label: "HELENA'S PORTFOLIO" },
+        { key: 'closetOrganizer', label: 'CLOSET ORGANIZER' },
+        { key: 'birdWatching', label: 'BIRD WATCHING' },
+        { key: 'pokemonRanker', label: 'POKEMON RANKER' },
+    ];
+
+    const step = 52
+    const offset = -12
+    const index = sections.findIndex(s => s.key === section)
+    const translateY = offset + index * step
 
     return (
         <div className="flex flex-col scroll-mt-25 md:scroll-mt-40" id="projects">
@@ -36,22 +52,11 @@ export const Projects = () => {
                             className="hidden md:block absolute right-0 w-0.5 bg-brand-blue transition-all duration-300 ease-in-out rounded-full"
                             style={{
                                 height: '48px',
-                                transform: `translateY(${
-                                    section === 'trackMyChores' ? -12 :
-                                    section === 'yosemiteReservations' ? 40 :
-                                    section === 'closetOrganizer' ? 90 :
-                                    section === 'birdWatching' ? 144 : 194
-                                }px)`
+                                transform: `translateY(${translateY}px)`
                             }}
                         />
 
-                        {[
-                            { key: 'trackMyChores', label: 'TRACK MY CHORES' },
-                            { key: 'yosemiteReservations', label: 'YOSEMITE CAMPSITES' },
-                            { key: 'closetOrganizer', label: 'CLOSET ORGANIZER' },
-                            { key: 'birdWatching', label: 'BIRD WATCHING' },
-                            { key: 'pokemonRanker', label: 'POKEMON RANKER' },
-                        ].map(({ key, label }) => (
+                        {sections.map(({ key, label }) => (
                             <button
                                 key={key}
                                 type="button"
@@ -78,6 +83,8 @@ export const Projects = () => {
                         <TrackMyChores />
                     ) : section === 'yosemiteReservations' ? (
                         <YosemiteReservations />
+                    ) : section === 'helenasPortfolio' ? (
+                        <HelenasPortfolio />
                     ) : section === 'closetOrganizer' ? (
                         <ClosetOrganizer />
                     ) : section === 'birdWatching' ? (

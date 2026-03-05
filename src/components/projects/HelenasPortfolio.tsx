@@ -138,28 +138,28 @@ export const HelenasPortfolio = () => {
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-8">
                 <Image
-                    src="/HelenasPortfolio/HelenasPortfolioMobile1.png"
+                    src="/HelenasPortfolio/HelenasPortfolioMobile1.PNG"
                     alt="Helenas Portfolio mobile screenshot 1"
                     width={1170}
                     height={2532}
                     className="w-full h-auto rounded-[20px]"
                 />
                 <Image
-                    src="/HelenasPortfolio/HelenasPortfolioMobile2.png"
+                    src="/HelenasPortfolio/HelenasPortfolioMobile2.PNG"
                     alt="Helenas Portfolio mobile screenshot 1"
                     width={1170}
                     height={2532}
                     className="w-full h-auto rounded-[20px]"
                 />
                 <Image
-                    src="/HelenasPortfolio/HelenasPortfolioMobile3.png"
+                    src="/HelenasPortfolio/HelenasPortfolioMobile3.PNG"
                     alt="Helenas Portfolio mobile screenshot 3"
                     width={1170}
                     height={2532}
                     className="w-full h-auto rounded-[20px]"
                 />
                 <Image
-                    src="/HelenasPortfolio/HelenasPortfolioMobile4.png"
+                    src="/HelenasPortfolio/HelenasPortfolioMobile4.PNG"
                     alt="Helenas Portfolio mobile screenshot 4"
                     width={1170}
                     height={2532}

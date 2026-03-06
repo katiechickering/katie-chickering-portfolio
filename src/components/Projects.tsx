@@ -8,25 +8,19 @@ import { BirdWatching } from '@/components/projects/BirdWatching';
 import { PokemonRanker } from '@/components/projects/PokemonRanker';
 import { HelenasPortfolio } from './projects/HelenasPortfolio';
 
-type Section =
-    | 'trackMyChores'
-    | 'yosemiteReservations'
-    | 'helenasPortfolio'
-    | 'closetOrganizer'
-    | 'birdWatching'
-    | 'pokemonRanker';
+export const sections = [
+    { key: 'trackMyChores', label: 'TRACK MY CHORES' },
+    { key: 'yosemiteReservations', label: 'YOSEMITE CAMPSITES' },
+    { key: 'helenasPortfolio', label: "HELENA'S PORTFOLIO" },
+    { key: 'closetOrganizer', label: 'CLOSET ORGANIZER' },
+    { key: 'birdWatching', label: 'BIRD WATCHING' },
+    { key: 'pokemonRanker', label: 'POKEMON RANKER' },
+] as const;
+
+export type Section = (typeof sections)[number]['key'];
 
 export const Projects = () => {
     const [section, setSection] = useState<Section>('trackMyChores');
-
-    const sections = [
-        { key: 'trackMyChores', label: 'TRACK MY CHORES' },
-        { key: 'yosemiteReservations', label: 'YOSEMITE CAMPSITES' },
-        { key: 'helenasPortfolio', label: "HELENA'S PORTFOLIO" },
-        { key: 'closetOrganizer', label: 'CLOSET ORGANIZER' },
-        { key: 'birdWatching', label: 'BIRD WATCHING' },
-        { key: 'pokemonRanker', label: 'POKEMON RANKER' },
-    ];
 
     const step = 52
     const offset = -12
@@ -60,7 +54,7 @@ export const Projects = () => {
                             <button
                                 key={key}
                                 type="button"
-                                onClick={() => setSection(key as Section)}
+                                onClick={() => setSection(key)}
                                 className={`hover:text-brand-blue transition-colors w-full whitespace-nowrap text-left
                                     px-2 py-1 md:p-0 border-b-2 md:border-0 ${
                                         section === key

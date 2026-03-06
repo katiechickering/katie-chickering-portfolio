@@ -1,5 +1,3 @@
-'use client';
-
 import ArrowIcon from '@/assets/icons/ArrowIcon.svg';
 import LinkedInIcon from '@/assets/icons/LinkedInIcon.svg';
 import GitHubIcon from '@/assets/icons/GitHubIcon.svg';

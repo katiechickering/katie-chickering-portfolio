@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import BulletIcon from '@/assets/icons/BulletIcon.svg';
 import DevIcon from '@/assets/icons/DevIcon.svg';
 import MobileIcon from '@/assets/icons/MobileIcon.svg';

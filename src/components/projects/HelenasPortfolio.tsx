@@ -10,7 +10,7 @@ export const HelenasPortfolio = () => {
     return (
         <div className="flex flex-col font-inter text-brand-white-text">
             <p className="text-[20px] text-brand-white-title">
-                Helena Contreras' Portfolio <span className="text-brand-blue">Website</span>
+                Helena's Portfolio <span className="text-brand-blue">Website</span>
             </p>
 
             <div className="flex flex-wrap mt-4 gap-6">

@@ -20,6 +20,14 @@ export const TrackMyChores = () => {
 
             <div className="flex flex-wrap mt-4 gap-6">
                 <a
+                    href="https://apps.apple.com/us/app/track-my-chores/id6756340747"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-brand-blue border-brand-blue border rounded-full py-2 px-4 text-[13px] hover:bg-[#0C576D]"
+                >
+                    Download on Apple App Store
+                </a>
+                <a
                     href="https://github.com/DojoEngineers/chore-tracker"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -34,14 +42,6 @@ export const TrackMyChores = () => {
                     className="text-brand-blue border-brand-blue border rounded-full py-2 px-4 text-[13px] hover:bg-[#0C576D]"
                 >
                     View on YouTube
-                </a>
-                <a
-                    href="https://www.linkedin.com/in/katiechickering/overlay/1769061364954/single-media-viewer/?profileId=ACoAACVDHh8Bhu09W_ydRozn0STEyLL8OuTI_sA"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-brand-blue border-brand-blue border rounded-full py-2 px-4 text-[13px] hover:bg-[#0C576D]"
-                >
-                    View Slide Deck
                 </a>
             </div>
 
@@ -193,8 +193,8 @@ export const TrackMyChores = () => {
 
             <ul className="ms-8 text-[14px] list-disc list-outside flex flex-col gap-2 leading-[27px]">
                 <li>
-                    We are currently in the user testing phase of our application and hope to deploy it on both
-                    the Apple App Store and Google Play Store soon!
+                    Our app is currently available on the Apple App Store! We are in the testing phase
+                    for Google Play and plan to release it there soon.
                 </li>
             </ul>
 

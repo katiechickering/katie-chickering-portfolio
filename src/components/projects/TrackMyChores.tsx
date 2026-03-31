@@ -18,6 +18,11 @@ export const TrackMyChores = () => {
                 Track My Chores <span className="text-brand-blue">Mobile Application</span>
             </p>
 
+            <p className="text-[16px] text-brand-white-title mt-2">
+                Published on the <span className="text-brand-blue">Apple App Store</span> - expanding to
+                <span className="text-brand-blue"> Google Play</span> soon
+            </p>
+
             <div className="flex flex-wrap mt-4 gap-6">
                 <a
                     href="https://apps.apple.com/us/app/track-my-chores/id6756340747"
@@ -138,7 +143,7 @@ export const TrackMyChores = () => {
                     Following an MVC architecture, the application uses MongoDB as the model, an Express API as the controller, and React Native for the view.
                 </li>
                 <li>
-                    Key features include full CRUD functionality for chores, user authentication with JSON Web Tokens, photo capture and storage, notifications,
+                    Key features include full CRUD functionality for chores, user authentication with JSON Web Tokens, photo capture and storage, push notifications,
                     and repeating chores powered by a chore template system and cron jobs. The project was conceptualized in Figma and includes both light and dark modes.
                     It was brought to life with dynamic, responsive styling that adapts well to a wide range of mobile screen sizes.
                 </li>
@@ -207,23 +212,39 @@ export const TrackMyChores = () => {
                 <li>
                     Front-end Engineer - Katie Chickering -{' '}
                     <a 
+                        href="https://www.linkedin.com/in/katiechickering/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-brand-blue hover:underline"
+                    >
+                        LinkedIn
+                    </a> -{' '}
+                    <a 
                         href="https://github.com/katiechickering" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-brand-blue hover:underline"
                     >
-                        github.com/katiechickering
+                        GitHub
                     </a>
                 </li>
                 <li>
                     Back-end Engineer - Ariella Rollins -{' '}
+                    <a 
+                        href="https://www.linkedin.com/in/ariella-rollins-080354178/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-brand-blue hover:underline"
+                    >
+                        LinkedIn
+                    </a> -{' '}
                     <a 
                         href="https://github.com/Ariella-Rollins" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-brand-blue hover:underline"
                     >
-                        github.com/Ariella-Rollins
+                        GitHub
                     </a>
                 </li>
                 <li>
@@ -234,7 +255,7 @@ export const TrackMyChores = () => {
                         rel="noopener noreferrer"
                         className="text-brand-blue hover:underline"
                     >
-                        linkedin.com/in/helena-g-4b5aa0133
+                        LinkedIn
                     </a>
                 </li>
             </ul>

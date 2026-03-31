@@ -23,7 +23,7 @@ export const About = () => {
                         Hi, I’m Katie, a <span className="text-brand-blue">Software Engineer</span> who learned to code and never looked back!
                         I specialize in <span className="text-brand-blue">front-end</span> and
                         <span className="text-brand-blue"> mobile development</span>, specifically with
-                        <span className="text-brand-blue"> React / React Native</span> and
+                        <span className="text-brand-blue"> React Native / React</span> and
                         <span className="text-brand-blue"> TypeScript frameworks</span>.
                     </p>
 
@@ -36,7 +36,10 @@ export const About = () => {
 
                     <p>
                         I graduated from <span className="text-brand-blue">Coding Dojo</span> at Colorado Technical University in July 2025 with
-                        <span className="text-brand-blue"> 3 full stacks</span> under my belt.
+                        <span className="text-brand-blue"> 3 full stacks</span> under my belt using
+                        <span className="text-brand-blue"> Python</span>,
+                        <span className="text-brand-blue"> JavaScript</span>, and
+                        <span className="text-brand-blue"> Java</span>.
                         Since then, I’ve built many projects including a cross platform mobile application with 2 distinct interfaces
                         and dozens of screens to handle complex task management workflows.
                         Built for a client alongside a backend engineer and a UI/UX designer, this project highlights my work as the

@@ -43,7 +43,7 @@ export const Education = () => {
                                         Technologies: MySQL, Flask, MongoDB, Express, React, Node.js, Spring Boot
                                     </li>
                                     <li>
-                                        Programs: VSCode, MySQL Workbench, Postman, Github
+                                        Programs: VSCode, MySQL Workbench, Postman, GitHub
                                     </li>
                                 </ul>
 

@@ -90,7 +90,7 @@ export const HelenasPortfolio = () => {
             </div>
 
             <ul className="ms-8 text-[14px] list-disc list-outside flex flex-col gap-2 leading-[27px]">
-                <li>Navigate seamlessly from a clean homepage to four individual project pages with dedicated case studies</li>
+                <li>Navigate seamlessly from a clean homepage to 4 individual project pages with dedicated case studies</li>
                 <li>Explore 4 featured projects, each presented on its own page with detailed technical breakdowns</li>
                 <li>Learn more about Helena's background and experience through a dedicated About Me page</li>
                 <li>Connect easily using integrated Contact and Resume call-to-action buttons</li>
@@ -187,12 +187,20 @@ export const HelenasPortfolio = () => {
                 <li>
                     Front-end Engineer - Katie Chickering -{' '}
                     <a 
+                        href="https://www.linkedin.com/in/katiechickering/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-brand-blue hover:underline"
+                    >
+                        LinkedIn
+                    </a> -{' '}
+                    <a 
                         href="https://github.com/katiechickering" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-brand-blue hover:underline"
                     >
-                        github.com/katiechickering
+                        GitHub
                     </a>
                 </li>
                 <li>
@@ -203,7 +211,7 @@ export const HelenasPortfolio = () => {
                         rel="noopener noreferrer"
                         className="text-brand-blue hover:underline"
                     >
-                        linkedin.com/in/helena-g-4b5aa0133
+                        LinkedIn
                     </a>
                 </li>
             </ul>

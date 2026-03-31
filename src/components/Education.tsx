@@ -37,10 +37,10 @@ export const Education = () => {
 
                                 <ul className="ms-8 list-disc list-outside flex flex-col gap-2">
                                     <li>
-                                        Languages: Python, JavaScript, Java, HTML, CSS, SQL, Mongoose
+                                        Languages: Python, JavaScript, Java, HTML, CSS, SQL
                                     </li>
                                     <li>
-                                        Technologies: MySQL, Flask, MongoDB, Express, React, Node.js, Springboot
+                                        Technologies: MySQL, Flask, MongoDB, Express, React, Node.js, Spring Boot
                                     </li>
                                     <li>
                                         Programs: VSCode, MySQL Workbench, Postman, Github

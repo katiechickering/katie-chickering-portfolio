@@ -172,12 +172,20 @@ export const ClosetOrganizer = () => {
                 <li>
                     Full-Stack Engineer - Katie Chickering -{' '}
                     <a 
+                        href="https://www.linkedin.com/in/katiechickering/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-brand-blue hover:underline"
+                    >
+                        LinkedIn
+                    </a> -{' '}
+                    <a 
                         href="https://github.com/katiechickering" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-brand-blue hover:underline"
                     >
-                        github.com/katiechickering
+                        GitHub
                     </a>
                 </li>
                 <li>
@@ -188,7 +196,7 @@ export const ClosetOrganizer = () => {
                         rel="noopener noreferrer"
                         className="text-brand-blue hover:underline"
                     >
-                        github.com/theclassic2
+                        GitHub
                     </a>
                 </li>
             </ul>

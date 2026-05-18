@@ -102,7 +102,7 @@ export const TrackMyChores = () => {
                 <li><span className="font-bold">NativeWind:</span> Front-end styling</li>
                 <li><span className="font-bold">Figma:</span> Design collaboration with UI/UX designer</li>
                 <li><span className="font-bold">Render:</span> Backend server deployment</li>
-                <li><span className="font-bold">Dev Tools:</span> GitHub, Android Studio, Xcode</li>
+                <li><span className="font-bold">Dev Tools:</span> GitHub Copilot, GitHub, Android Studio, Xcode</li>
             </ul>
 
             <div className="flex gap-4 items-center mt-8 mb-4">

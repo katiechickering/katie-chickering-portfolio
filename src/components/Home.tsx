@@ -15,16 +15,15 @@ export const Home = () => {
             </p>
 
             <p className="text-brand-white-text text-[20px] md:text-[28px] leading-6 md:leading-12">
-                I build thoughtful digital experiences that help people succeed.
+                I solve technical problems and build digital tools that help people succeed.
             </p>
 
             <p
                 className="text-brand-white-text text-[12px] mt-4
                 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
             >
-                Software Engineer | Front-End & Mobile Development
-                | Specialized in React Native & TypeScript
-                Frameworks | Dedicated Project Lab Experience
+                Support Engineer | Full-Stack & Mobile Development
+                | Specialized in React Native, TypeScript & API Troubleshooting
             </p>
 
             <a

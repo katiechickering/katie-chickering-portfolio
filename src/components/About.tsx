@@ -33,7 +33,7 @@ export const About = () => {
                         My background in fitness and executive support has always been about
                         <span className="text-brand-blue"> helping others succeed</span>.
                         In those roles, I became the
-                        <span className="text-brand-blue"> "technical go-to"</span>
+                        <span className="text-brand-blue"> "technical go-to" </span>
                         for my teams, which sparked a curiosity about
                         how software systems are built from the ground up. That curiosity led me to pursue a rigorous
                         engineering foundation so I could solve the complex technical hurdles that standard support can’t reach.

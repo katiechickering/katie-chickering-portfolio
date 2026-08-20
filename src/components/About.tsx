@@ -48,7 +48,7 @@ export const About = () => {
                         Since then, I’ve architected and launched a cross-platform mobile application
                         featuring dozens of screens and complex workflows.
                         Working alongside a back-end engineer and a UI/UX designer, I served as the
-                        <span className="text-brand-blue"> front-end engineer</span>
+                        <span className="text-brand-blue"> front-end engineer </span>
                         triageing bugs, managing integrations, and collaborating across teams to deliver a
                         <span className="text-brand-blue"> feature-rich product</span>.
                     </p>

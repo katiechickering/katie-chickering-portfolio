@@ -20,34 +20,40 @@ export const About = () => {
 
                 <div className="font-ntr text-[16px] md:text-[20px] text-brand-white-text leading-6 md:leading-7 flex flex-col gap-5">
                     <p>
-                        Hi, I’m Katie, a <span className="text-brand-blue">Software Engineer</span> who learned to code and never looked back!
+                        Hi, I’m Katie, an <span className="text-brand-blue">Engineer</span> who thrives at the intersection of deep
+                        technical problem-solving and customer success.
                         I specialize in <span className="text-brand-blue">front-end</span> and
-                        <span className="text-brand-blue"> mobile development</span>, specifically with
-                        <span className="text-brand-blue"> React Native / React</span> and
-                        <span className="text-brand-blue"> TypeScript frameworks</span>.
+                        <span className="text-brand-blue"> mobile development</span>, with a heavy focus on
+                        <span className="text-brand-blue"> React Native</span>,
+                        <span className="text-brand-blue"> React</span> and
+                        <span className="text-brand-blue"> TypeScript</span>.
                     </p>
 
                     <p>
-                        My background in both fitness and executive support has always centered on
+                        My background in fitness and executive support has always been about
                         <span className="text-brand-blue"> helping others succeed</span>.
-                        In these roles, I relied on a wide range of software tools and became increasingly interested in how those systems were built.
-                        This curiosity ultimately pushed me toward pursuing software engineering, where I can create my own solutions to help others.
+                        In those roles, I became the "technical go-to" for my teams, which sparked a curiosity about
+                        how software systems are built from the ground up. That curiosity led me to pursue a rigorous
+                        engineering foundation so I could solve the complex technical hurdles that standard support can’t reach.
                     </p>
 
                     <p>
-                        I graduated from <span className="text-brand-blue">Coding Dojo</span> at Colorado Technical University in July 2025 with
-                        <span className="text-brand-blue"> 3 full stacks</span> under my belt using
+                        I graduated from <span className="text-brand-blue">Coding Dojo</span> in July 2025 with
+                        <span className="text-brand-blue"> three full stacks</span> under my belt (
                         <span className="text-brand-blue"> Python</span>,
                         <span className="text-brand-blue"> JavaScript</span>, and
-                        <span className="text-brand-blue"> Java</span>.
-                        Since then, I’ve built many projects including a cross platform mobile application with 2 distinct interfaces
-                        and dozens of screens to handle complex task management workflows.
-                        Built for a client alongside a backend engineer and a UI/UX designer, this project highlights my work as the
+                        <span className="text-brand-blue"> Java</span>).
+                        Since then, I’ve architected and launched a cross-platform mobile application
+                        featuring dozens of screens and complex workflows.
+                        Working alongside a back-end engineer and a UI/UX designer, I served as the
                         <span className="text-brand-blue"> front-end engineer</span>.
-                        It showcases my technical expertise and my ability to deliver
-                        <span className="text-brand-blue"> robust, feature-rich solutions</span> through
-                        <span className="text-brand-blue"> effective collaboration</span>.
-                        Check out the project below!
+                        triageing bugs, managing integrations, and collaborating across teams to deliver a
+                        <span className="text-brand-blue"> feature-rich product</span>.
+                    </p>
+
+                    <p>
+                        I’m now looking to use my engineering background to bridge the gap between technical
+                        complexity and the people who use the software. Check out my projects below!
                     </p>
                 </div>
 
